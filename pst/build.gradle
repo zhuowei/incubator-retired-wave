@@ -109,7 +109,8 @@ checkstyleMain.source = "src/main/java" // only checks the manually written java
 //=============================================================================
 protobuf {
     protoc {
-        artifact = 'com.google.protobuf:protoc:2.6.1'
+        // artifact = 'com.google.protobuf:protoc:2.6.1'
+        path = '/home/zhuowei/bin/protoc'
     }
     generatedFilesBaseDir = "$projectDir/generated"
 }
