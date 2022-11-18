@@ -21,6 +21,7 @@ package org.waveprotocol.box.server;
 
 import com.google.gwt.logging.server.RemoteLoggingServiceImpl;
 import com.google.inject.*;
+import com.google.inject.Module;
 import com.google.inject.name.Names;
 import com.typesafe.config.Config;
 import com.typesafe.config.ConfigFactory;
